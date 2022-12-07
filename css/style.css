@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: cursive;
+  font-family: sans-serif;
 src: url(https://github.com/googlefonts/ms-madi/blob/master/fonts/otf/MsMadi-Regular.otf);
 }
 body {
