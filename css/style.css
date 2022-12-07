@@ -108,7 +108,7 @@ border-bottom-style: solid;
 border-width: inherit;
 
 }
-div.aboutwork {
+.aboutwork {
   column-count: 2;
   display: flex;
   flex-wrap: unset;
