@@ -40,6 +40,11 @@ header.sticky-header {
   font-size: 20px;
 
 }
+
+svg {
+  display: inline;
+  margin: 2px;
+}
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -70,8 +75,11 @@ column-width: 50%;
 
 }
 .profile-image {
-width: 50%;
-height: 50%;
+width: 17%;
+height: 18%;
+align-items: right;
+float: left;
+clear:both;
 
 }
 
@@ -81,17 +89,17 @@ position: sticky;
 }
 
 h1{
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 .sectionlayout {
 
-padding: 30px
+padding: 50px;
 }
 
 .projectback {
 background-color: black;
-padding: 30px;
+padding: 50px;
 
 }
 
@@ -103,24 +111,60 @@ padding-bottom: 20px;
 
 .intro {
 width: 50%;
-border-style: none;
-border-bottom-style: solid;
-border-width: inherit;
-
+column-count: 0;
+display: inline;
+column-gap: 0;
 }
+
 .aboutwork {
   column-count: 2;
   display: flex;
   flex-wrap: unset;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 3%;
 
 }
 @media (min-width: 600px) {
 #aboutbox {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
   flex: 1;
 
 }
 
+}
+.pagetop {
+display: block;
+background-color: black;
+align-content: space-around;
+justify-content: center;
+padding: 50px;
+border-style: none;
+border-bottom-style: none;
+border-width: inherit;
+padding-bottom: 25px;
+padding-top: 100px;
+
+}
+h1, p.my-name2 {
+  color: white;
+  line-height: 10px;
+}
+.headtext {
+  padding-left: 20px;
+  margin-left: 17.5%;
+}
+
+.card {
+  padding: 2.5%;
+  column-gap:2%;
+  margin: 2%;
+}
+h2 {
+  line-height: 10px;
+}
+a{
+  text-decoration:none !important;
+  border:none;
+color:  black !important;
 }
