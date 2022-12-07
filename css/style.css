@@ -109,7 +109,15 @@ border-width: inherit;
 
 }
 div.aboutwork {
-columns: 2
-display:flex;
+  column-count: 2;
+  display: flex;
+  flex-wrap: unset;
+  flex-direction: row;
+
+}
+@media (max-width: 500px) {
+#aboutbox {
+  flex-direction: column;
+}
 
 }
