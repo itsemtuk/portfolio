@@ -108,7 +108,8 @@ border-bottom-style: solid;
 border-width: inherit;
 
 }
-.aboutwork {
-columns: 2;
+div.aboutwork {
+columns: 2
+display:flex;
 
 }
