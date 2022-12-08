@@ -103,6 +103,7 @@ h1{
 .sectionlayout {
 
 padding: 50px;
+padding-top: 20px;
 }
 
 .projectback {
@@ -130,13 +131,18 @@ column-gap: 0;
   flex-wrap: unset;
   flex-direction: column;
   padding: 3%;
+  padding-top: 1%;
 
 }
 @media (min-width: 600px) {
 #aboutbox {
   flex-direction: row;
-  display: flex;
+  display: inline-flex;
   flex: 1;
+
+}
+.morlinks {
+padding: 40%;
 
 }
 
@@ -152,6 +158,10 @@ border-bottom-style: none;
 border-width: inherit;
 padding-bottom: 25px;
 padding-top: 100px;
+
+}
+.page-wrapper {
+padding: inherit;
 
 }
 h1, p.my-name2 {
@@ -181,6 +191,7 @@ color:  black !important;
 footer {
   background-color: black;
   padding: 2%;
+  display: grid;
 }
 .footertext {
   color: lightgrey;
