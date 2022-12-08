@@ -149,7 +149,7 @@ padding: 40%;
 }
 .pagetop {
 display: block;
-background-color: black;
+background-image: url(images/velvet.png);
 align-content: space-around;
 justify-content: center;
 padding: 50px;
@@ -192,7 +192,20 @@ footer {
   background-color: black;
   padding: 2%;
   display: grid;
+  column-count: 2;
+  align-items: center;
+  justify-content: space-between;
+
+
 }
 .footertext {
   color: lightgrey;
+
+
+}
+.enhancedbrand {
+  float: right;
+  display: block;
+  position: inherit;
+  margin-left: auto;
 }
