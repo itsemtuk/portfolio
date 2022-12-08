@@ -63,11 +63,18 @@ margin-bottom: 10px;
 }
 .navbar-brand {
   color: inherit;
-  background-color: #B12134;
   border-color: inherit;
   border-radius: 100%;
   width: 3%;
-  margin: auto;
+}
+
+@media (max-width: 600px) {
+  #navicon {
+    color: inherit;
+    border-color: inherit;
+    border-radius: 100%;
+    width: 15%;
+  }
 }
 
 .name-section {
