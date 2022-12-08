@@ -149,8 +149,10 @@ padding: 40%;
 }
 .pagetop {
 display: block;
-background-color: black;
-background-image: url(images/velvet.png);
+background-image: url(../images/velvet.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 align-content: space-around;
 justify-content: center;
 padding: 50px;
